@@ -1,0 +1,23 @@
+#spring:
+#  application:
+#    name: MULTI-AUTH
+#  datasource:
+#    url: jdbc:h2:mem:multi-auth
+#    username: sa
+#    password: password
+#    driverClassName: org.h2.Driver
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    generate-ddl: true
+#    show-sql: true
+#    defer-datasource-initialization: true
+#  h2:
+#    console.enabled: true
+#  mvc:
+#    pathmatch:
+#      matching-strategy: ant_path_matcher
+#
+#springfox:
+#  documentation:
+#    swagger-ui:
+#      baseUrl: multi-auth
